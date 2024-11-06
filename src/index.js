@@ -3,6 +3,7 @@ import loadHome from './home';
 import loadMenu from './menu';
 import loadContact from './contact';
 import coffeeIcon from './images/coffee.png';  // Import the image
+import backgroundImage from './images/cat-background.jpg';
 
 function init() {
   // Set the image source dynamically
