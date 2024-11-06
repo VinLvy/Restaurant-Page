@@ -1,8 +1,13 @@
-console.log("Webpack is working!");
+import loadHome from './home';
+import loadMenu from './menu';
+import loadContact from './contact';
 
-import coffeeIcon from './images/coffee.png';
+function init() {
+  document.getElementById('homeBtn').addEventListener('click', loadHome);
+  document.getElementById('menuBtn').addEventListener('click', loadMenu);
+  document.getElementById('contactBtn').addEventListener('click', loadContact);
 
-document.addEventListener('DOMContentLoaded', () => {
-  const coffeeImgElement = document.getElementById('coffeeIcon');
-  coffeeImgElement.src = coffeeIcon;
-});
+  loadHome();  // Load the homepage initially
+}
+
+init();
