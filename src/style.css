@@ -88,6 +88,10 @@
     margin-bottom: 15px;
   }
 
+  #content h2 {
+    margin-bottom: 10px;
+  }
+
   #content p {
     font-size: 1.1em;
     color: #555;
@@ -159,6 +163,13 @@
       height: auto;
   }
 }
+
+  .contact-image {
+    max-width: 77%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
 
   /* Footer styling */
   footer {
