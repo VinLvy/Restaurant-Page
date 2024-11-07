@@ -146,6 +146,20 @@
     border-radius: 8px;
   }
 
+  /* Responsive design for mobile */
+@media (max-width: 768px) {
+  .product-card {
+      flex-direction: column;
+      width: 90%; /* Full width for mobile */
+      max-width: 100%; /* Ensure no overflow */
+  }
+
+  .product-image {
+      width: 100%; /* Full image width on mobile */
+      height: auto;
+  }
+}
+
   /* Footer styling */
   footer {
     background-color: #654321;
