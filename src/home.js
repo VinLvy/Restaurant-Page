@@ -15,7 +15,7 @@ export default function loadHome() {
     
     const image = document.createElement('img');
     image.src = restaurantImage;
-    image.alt = "Restaurant ambiance";
+    image.alt = "Cafe ambiance";
     image.classList.add('center-image'); // Add a class for styling
 
     // Append headline and description to the card

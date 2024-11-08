@@ -11,8 +11,6 @@ export default function loadContact() {
     contactTitle.textContent = "Contact Us";
     const contactInfo = document.createElement('p');
     contactInfo.innerHTML = "We would love to hear from you! <br> Tel: 1234-567";
-    // const contactNumber = document.createElement('p');
-    // contactNumber.textContent = "Tel: 1234-567";
 
     const address = document.createElement('h2');
     address.textContent = "Our Address";
@@ -27,7 +25,6 @@ export default function loadContact() {
     // Append headline and description to the card
     card.appendChild(contactTitle);
     card.appendChild(contactInfo);
-    // card.appendChild(contactNumber);
     card.appendChild(address);
     card.appendChild(addressInfo);
     card.appendChild(image);
